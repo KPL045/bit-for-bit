@@ -12,6 +12,7 @@ import javax.swing.JOptionPane;
  *
  * @author Kopano Lesese
  */
+ //human coding 1/2
 public class Tictactoe extends javax.swing.JFrame {
     
     private String startGame = "X";
@@ -20,7 +21,7 @@ public class Tictactoe extends javax.swing.JFrame {
             
 
     /**
-     * Creates new form Tictactoe
+     * 
      */
     public Tictactoe() {
         initComponents();
@@ -224,7 +225,7 @@ public class Tictactoe extends javax.swing.JFrame {
         
         
     }
-            
+ //human coding stops 1/2        
 
     /**
      * This method is called from within the constructor to initialize the form.
@@ -487,6 +488,7 @@ public class Tictactoe extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>                        
 
+//Second batch of human coding
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         jButton4.setText (startGame);
     {
@@ -686,7 +688,7 @@ private JFrame frame;
         jButton8.setBackground (Color.LIGHT_GRAY);
         jButton9.setBackground (Color.LIGHT_GRAY);
     }                                         
-
+//End of human coding 2/2
     /**
      * @param args the command line arguments
      */
